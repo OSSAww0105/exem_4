@@ -3,7 +3,7 @@ from aiogram import Bot, Dispatcher, types, executor
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '6281199661:AAEb16wwzhS051uFWZtHgFUaoIxCvj5LeFk'
+API_TOKEN = ''
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
@@ -28,3 +28,16 @@ async def handle_message(message: types.Message):
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
+
+
+
+
+
+
+
+
+
+
+
+
+
